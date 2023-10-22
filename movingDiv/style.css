@@ -1,0 +1,46 @@
+.r, .g, .b{
+width: 50px; height: 50px;
+position: absolute;
+transition: left 1s, top 1s;
+
+}
+
+.transition{
+    transition: left 1s, top 1s;
+}
+
+.r{
+background-color: red;
+text-align: center; line-height: 50px;
+color: white;
+font-weight: bold;
+}
+.g{
+background-color: green;
+}
+.b{
+background-color: blue;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.formDiv{
+    position: relative;
+    /* justify-content: end; */
+    /* left: 1000px;top: 50px; */
+    float: right;
+    margin-right: 5%;
+    margin-top: 10%;
+    width: 200px; height: 200px;
+    background-color: rgb(198, 198, 198);
+    border-radius: 10%;
+    padding: 30px;
+ /* padding-top: 30px; */
+   padding-bottom: 50px;
+}
+
+p{
+    text-align: center;
+}
